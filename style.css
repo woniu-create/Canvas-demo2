@@ -39,8 +39,10 @@ ul {
     width: 100vw;
     height: 100vh;
     margin: auto;
-    position: relative;
     overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 
 .wrapping .tools {
@@ -86,7 +88,4 @@ ul {
 .wrapping #canvas {
     width: 100vw;
     height: 100vh;
-    position: fixed;
-    top: 0;
-    left: 0;
 }
