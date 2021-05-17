@@ -76,11 +76,11 @@ ul {
 .pen-earse{
     position: absolute;
     top: 10px;
-    right: 10px;
-    font-size: 36px;
+    left: 60px;
+    font-size: 30px;
 }
 .pen-earse .icon{
-    display: block;
+    display: inline;
     margin-bottom: 8px;
 }
 
@@ -89,3 +89,24 @@ ul {
     width: 100vw;
     height: 100vh;
 }
+@media (min-width: 600px) { /*当屏幕尺寸小于600px时，应用下面的CSS样式*/
+    /* body{
+        background-color: red;
+        border: 1px solid red;
+    } */
+    /* .wrapping .tools {
+      position: absolute;
+      bottom: 0px;
+      border: 1px solid red;
+    }    */
+    /* .wrapping .color{
+        position: absolute;
+        display: inline;
+        left: 10px;
+        text-align: center;
+        align-items: center;
+        top: 50%;
+        transform:translateY(-50%);
+        border: 1px solid green;
+    } */
+  }
